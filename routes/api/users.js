@@ -7,7 +7,7 @@ const User = require("../../models/User");
 
 router.get("/test", (req, res) =>
   res.json({
-    msg: "User Works!"
+    msg: "User Works Fine!"
   })
 );
 
